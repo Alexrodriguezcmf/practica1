@@ -80,3 +80,17 @@ article h4 {
 article ul {
   list-style-type: square;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-aside {
+  weight: 200px;
+  display: flex;
+}
+
+.flex-main {
+  weight: 200px;
+  display: flex;
+}
