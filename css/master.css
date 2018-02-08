@@ -3,6 +3,16 @@ ul{
   list-style-type: none;
 }
 
+h1, h2{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+img {
+  width: 350px;
+}
+
 /* * {
   color: blue;
 }
@@ -56,13 +66,14 @@ main section > h2{
 
 .hero {
   background-color: #F7DDC3;
-  box-shadow: 2px 2px 30px 5px #647087;
+  box-shadow: 2px 2px 30px 5px #647087 inset;
+  padding: 15% 0;
 }
 
 .hero h2 {
   color: white;
   border-top: 2px solid white;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: normal;
 }
 .about-me {
@@ -83,14 +94,34 @@ article ul {
 
 .flex {
   display: flex;
+  margin: 0;
 }
 
 .flex-aside {
-  weight: 200px;
+  flex-basis: 40%;
   display: flex;
 }
 
 .flex-main {
-  weight: 200px;
+  flex-basis: 40%;
   display: flex;
+  margin-left:50px;
+}
+
+.references {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.references article{
+  width: 50%
+}
+
+dl{
+  display: flex;
+  flex-wrap: wrap;
+}
+dd, dt{
+  flex-basis: 40%;
+  margin: 0;
 }
