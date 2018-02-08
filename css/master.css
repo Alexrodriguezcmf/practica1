@@ -111,10 +111,15 @@ article ul {
 .references {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .references article{
   width: 50%
+}
+
+.references img{
+  width: 150px;
 }
 
 dl{
