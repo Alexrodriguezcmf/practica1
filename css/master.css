@@ -9,9 +9,13 @@ h1, h2{
   text-align: center;
 }
 
+h3{
+  text-transform: uppercase;
+}
 
-img {
-  width: 350px;
+#profile-pic img{
+  border-radius: 50%;
+  width: 100%;
 }
 /* +++++++   ASIDE  ++++++++ */
 aside {
@@ -29,10 +33,6 @@ aside * h2 {
 
 aside section h2:first-child{
   border-bottom: 2px solid white;
-}
-
-#profile-pic img{
-  border-radius: 50%;
 }
 
 /* +++++++   HERO  ++++++++ */
@@ -83,7 +83,7 @@ article ul {
 .flex-main {
   flex-basis: 40%;
   display: flex;
-  margin-left:50px;
+  margin-left:5%;
 }
 
 .references {
@@ -97,7 +97,7 @@ article ul {
 }
 
 .references img{
-  width: 150px;
+  width: 100%;
 }
 
 dl{
